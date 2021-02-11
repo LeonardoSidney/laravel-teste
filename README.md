@@ -10,13 +10,13 @@
 
 ## Installing the project
 
-1 - copy the .env.example file to a new file called .env
-2 - run "php artisan key:generate"
-3 - create a database in the database with the name you want
-4 - in the .env file in the variable "DB_DATABASE" put the database name, "DB_USERNAME" the user name and "DB_PASSWORD" the database password
-5 - run "php artisan migrate --seed"
-6 - run "composer install"
-7 - run "npm install && npm run dev"
+1 - copy the .env.example file to a new file called .env<br>
+2 - run "php artisan key:generate"<br>
+3 - create a database in the database with the name you want<br>
+4 - in the .env file in the variable "DB_DATABASE" put the database name, "DB_USERNAME" the user name and "DB_PASSWORD" the database password<br>
+5 - run "php artisan migrate --seed"<br>
+6 - run "composer install"<br>
+7 - run "npm install && npm run dev"<br>
 
 ## About Laravel
 
