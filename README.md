@@ -7,6 +7,17 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+## Installing the project
+
+1 - copy the .env.example file to a new file called .env
+2 - run "php artisan key:generate"
+3 - create a database in the database with the name you want
+4 - in the .env file in the variable "DB_DATABASE" put the database name, "DB_USERNAME" the user name and "DB_PASSWORD" the database password
+5 - run "php artisan migrate --seed"
+6 - run "composer install"
+7 - run "npm install && npm run dev"
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
